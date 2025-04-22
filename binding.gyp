@@ -103,6 +103,11 @@
           }
         },
       ]
+    }],
+    ['OS=="android"', {
+      'variables': {
+        'android_ndk_path': ''
+      }
     }]
   ]
 }
